@@ -4,6 +4,7 @@
    License: none (public domain)
 */
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600i,700|Montserrat|Roboto+Mono");
+@import url("https://use.fontawesome.com/releases/v5.6.1/css/all.css");
 * {
   margin: 0;
   padding: 0; }
@@ -77,6 +78,11 @@ a {
   text-decoration: none;
   display: inline-block; }
 
+.text-center {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center; }
+
 /**
  * Estilo tipográfico básico para texto de cópia
  */
@@ -101,21 +107,19 @@ body {
 .container {
   max-width: 1200px;
   /* 1 */
-  margin: 0 auto;
-  background: #ebebeb; }
-
-.text-center {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  margin: 30px 0;
-  background: red; }
+  margin-left: auto;
+  /* 2 */
+  margin-right: auto;
+  /* 2 */
+  padding: 0 20px;
+  width: 100%;
+  /* 1 */ }
 
 .button {
-  color: #ebebeb;
+  color: white;
   padding: .6em 1.4em;
-  border: 1px solid #ebebeb; }
+  border: 1px solid white; }
   .button:hover {
     background: #ff9900;
     border: 1px solid #ff9900;
-    color: #ebebeb; }
+    color: white; }

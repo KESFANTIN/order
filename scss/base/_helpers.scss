@@ -19,14 +19,8 @@
  */
 .container {
   max-width: $max-width; /* 1 */
-  margin: 0 auto;
-  background: $branco;
- }
-
- .text-center {
-   width: 80%;
-   margin: 0 auto;
-   text-align: center;
-   margin: 30px 0;
-   background: red;
+  margin-left: auto; /* 2 */
+  margin-right: auto; /* 2 */
+  padding: 0 20px;
+  width: 100%; /* 1 */
  }
