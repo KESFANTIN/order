@@ -9,6 +9,10 @@ html {
   box-sizing: border-box;
 }
 
+/*body {
+  background: $preto;
+}*/
+
 /**
  * Tornar todos os elementos do DOM herdados do tamanho de caixa pai
  * Como `*` tem uma especificidade de 0, ele não substitui o valor de `html`
@@ -27,9 +31,5 @@ html {
 a {
   color: $preto;
   text-decoration: none;
-
-  @include on-event {
-    color: $cinza;
-    text-decoration: underline;
-  }
+  display: inline-block;
 }

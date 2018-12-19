@@ -1,3 +1,15 @@
 // -----------------------------------------------------------------------------
 // Este arquivo contém todos os estilos relacionados ao componente de botão.
 // -----------------------------------------------------------------------------
+
+.button {
+    color: $branco;
+    padding: .6em 1.4em;
+    border: 1px solid $branco;
+
+    &:hover {
+        background: $laranja;
+        border: 1px solid $laranja;
+        color: $branco;
+    }
+}
