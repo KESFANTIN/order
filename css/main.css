@@ -3,6 +3,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600i,700");
 * {
   margin: 0;
   padding: 0; }
@@ -69,18 +70,18 @@ html {
  * Estilos básicos para links
  */
 a {
-  color: #e50050;
+  color: black;
   text-decoration: none; }
   a:hover, a:active, a:focus {
-    color: #222222;
+    color: #393939;
     text-decoration: underline; }
 
 /**
  * Estilo tipográfico básico para texto de cópia
  */
 body {
-  color: #222222;
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  color: #393939;
+  font: normal 125%/1.4 #393939; }
 
 /**
  * Limpar os floats interiores
@@ -97,7 +98,7 @@ body {
  * 3. Deixe um pouco de espaço nas bordas, especialmente valiosas em telas pequenas
  */
 .container {
-  max-width: 1180px;
+  max-width: 1200px;
   /* 1 */
   margin-left: auto;
   /* 2 */

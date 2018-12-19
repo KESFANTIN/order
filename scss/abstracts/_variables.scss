@@ -5,46 +5,32 @@
 
 /// Regular font family
 /// @type List
-$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
-
-/// Code (monospace) font family
-/// @type List
-$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+$text-font: 'Crimson Text', verdana, arial, serif, sans-serif !default;
 
 
-
-
-
-/// Copy text color
 /// @type Color
-$text-color: rgb(34, 34, 34) !default;
+$preto: rgb(0, 0, 0) !default;
 
-/// Main brand color
+/// Pelicula transparente
+$preto-alpha: rgba(0, 0, 0, .7) !default;
+
 /// @type Color
-$brand-color: rgb(229, 0, 80) !default;
+$branco: rgb(235, 235, 235) !default;
 
-/// Light grey
 /// @type Color
-$light-grey: rgb(237, 237, 237) !default;
+$cinza: rgb(57, 57, 57) !default;
 
-/// Medium grey
 /// @type Color
-$mid-grey: rgb(153, 153, 153) !default;
+$cinza-claro: rgb(120, 120, 120) !default;
 
-/// Dark grey
 /// @type Color
-$dark-grey: rgb(68, 68, 68) !default;
-
-
+$laranja: rgb(255, 153, 0) !default;
 
 
 
 /// Container's maximum width
 /// @type Length
-$max-width: 1180px !default;
-
-
-
+$max-width: 1200px !default;
 
 
 /// Breakpoints map
