@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+// Este arquivo contém estilos muito básicos.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+}
+
+/**
+ * Tornar todos os elementos do DOM herdados do tamanho de caixa pai
+ * Como `*` tem uma especificidade de 0, ele não substitui o valor de `html`
+ * azendo com que todos os elementos herdados do valor do tamanho da caixa raiz
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**
+ * Estilos básicos para links
+ */
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  @include on-event {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
