@@ -3,8 +3,8 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600i,700|Montserrat|Roboto+Mono");
-@import url("https://use.fontawesome.com/releases/v5.6.1/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500i,900");
 * {
   margin: 0;
   padding: 0; }
@@ -115,11 +115,14 @@ body {
   width: 100%;
   /* 1 */ }
 
-.button {
+.button, .button-black {
   color: white;
-  padding: .6em 1.4em;
+  padding: .4em 1.6em;
   border: 1px solid white; }
-  .button:hover {
+  .button:hover, .button-black:hover {
     background: #ff9900;
     border: 1px solid #ff9900;
     color: white; }
+
+.button-black {
+  background: #393939; }

@@ -24,5 +24,6 @@
         "> 1%",
         "last 2 versions"
     ],
-    "emmet.triggerExpansionOnTab": true
+    "emmet.triggerExpansionOnTab": true,
+    "html-css-class-completion.enableEmmetSupport": true
 }
